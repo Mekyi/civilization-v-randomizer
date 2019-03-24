@@ -1,0 +1,37 @@
+<mat-card class="card">
+  <mat-card-header>
+    <mat-card-title>{{ currentSettings[0] }}</mat-card-title>
+    <mat-card-subtitle></mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list-item>
+      <p class="property-name">Victory type:</p>
+      <span class="spacer"></span>
+      <p class="property-value">{{ currentSettings[1] }}</p>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>
+      <p class="property-name">Map type:</p>
+      <span class="spacer"></span>
+      <p class="property-value">{{ currentSettings[2] }}</p>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>
+      <p class="property-name">Map size:</p>
+      <span class="spacer"></span>
+      <p class="property-value">{{ currentSettings[3] }}</p>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>
+      <p class="property-name">Difficulty:</p>
+      <span class="spacer"></span>
+      <p class="property-value">{{ currentSettings[4] }}</p>
+    </mat-list-item>
+    <mat-divider></mat-divider>
+    <mat-list-item>
+      <p class="property-name">Game pace:</p>
+      <span class="spacer"></span>
+      <p class="property-value">{{ currentSettings[5] }}</p>
+    </mat-list-item>
+  </mat-card-content>
+</mat-card>

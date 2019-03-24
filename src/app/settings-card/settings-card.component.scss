@@ -1,0 +1,38 @@
+.card {
+  width: 300px;
+  margin-top: 100px;
+  padding-bottom: 0px;
+  font-size: 30px;
+  background-color: rgba($color: white, $alpha: 0.8)
+}
+
+.mat-card-header {
+  border-bottom: 2px gray solid;
+}
+
+.header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+mat-list-item {
+  font-size: 18px;
+}
+
+mat-card-title {
+  font-weight: bold;
+}
+
+.spacer {
+  //flex: 1 1 auto;
+  display: block;
+}
+
+p.property-name {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+p.property-value {
+  margin-top: 0;
+}
